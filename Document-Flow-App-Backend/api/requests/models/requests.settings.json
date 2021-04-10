@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "requests",
+  "info": {
+    "name": "requests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
