@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "requests",
   "info": {
-    "name": "requests"
+    "name": "requests",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -20,10 +21,12 @@
       "type": "string"
     },
     "status": {
-      "type": "string"
+      "type": "string",
+      "default": "pending"
     },
-    "date": {
-      "type": "string"
+    "respondedBy": {
+      "type": "string",
+      "default": "pending"
     }
   }
 }

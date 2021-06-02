@@ -12,10 +12,12 @@
   },
   "attributes": {
     "fName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
       "type": "string",
@@ -23,10 +25,13 @@
       "required": true
     },
     "type": {
-      "type": "string"
+      "type": "string",
+      "required": false,
+      "default": "user"
     },
     "password": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
