@@ -1,6 +1,6 @@
 # Document-Flow-App-Backend
 
-#Backend for both mobile and web view
+# Backend for both mobile and web view
 
 Steps to run:
 1. Clone this repo.
